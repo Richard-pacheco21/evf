@@ -1,0 +1,179 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333; 
+}
+/* Navbar */
+.navbar-dark {
+    background-color: #212529; 
+}
+.navbar-brand {
+    font-weight: bold;
+    color: cyan; 
+}
+.nav-link {
+    color: #f8f9fa; 
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: cyan; 
+}
+header {
+    background: linear-gradient(135deg, #1e90ff, #87ceeb); 
+    color: white;
+}
+header img {
+    border: 5px solid white; 
+}
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Sobre mí */
+#sobre-mi {
+    background: #212529; 
+    color: white; 
+}
+#sobre-mi h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+#sobre-mi p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Experiencia */
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.badge {
+    font-size: 0.9rem;
+}
+
+.img-proyecto {
+    width: 300px; 
+    height: 400px;
+    object-fit: cover; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    margin: auto; 
+}
+.proyecto-container {
+    text-align: center;
+}
+.custom-image {
+    object-fit: cover; 
+    height: 600px; 
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+}
+
+/* grupo de lista */
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.articulos-container {
+    max-width: 800px;
+    margin: auto;
+}
+.table th {
+    background-color: #f8f9fa;
+}
+.table a {
+    text-decoration: none;
+    color: #0d6efd; 
+}
+.table a:hover {
+    text-decoration: underline;
+    color: #0a58ca; 
+}
+.top-caption {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%); 
+    color: white;
+    font-size: 2rem; 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+}
+.bottom-caption {
+    position: absolute;
+    bottom: 5%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    color: white;
+    font-size: 1.5rem; 
+    font-weight: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+}
+ .testimonio img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimonio {
+    text-align: center;
+}
+.nombre {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.cargo {
+    color: gray;
+    font-size: 0.9rem;
+}
+.carrusel-contenedor {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Contacto */
+footer {
+    background-color: #212529;
+}
+footer h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+footer a {
+    color: white;
+    transition: color 0.3s;
+}
+footer a:hover {
+    color: cyan;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #1e90ff;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.btn-primary:hover {
+    background-color: #0b76d1;
+    transform: scale(1.05);
+}
